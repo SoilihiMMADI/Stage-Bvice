@@ -1,0 +1,35 @@
+.intro {
+  position: relative;
+  @media (min-width: 992px) {
+    .BviceFace-img {
+      width: 75%;
+      float: right;
+    }
+    .BviceBas-img {
+      width: 75%;
+      float: left;
+    }
+    .BviceCote-img {
+      width: 50%;
+      float: right;
+    }
+    
+    .BviceCote-text{
+      left: 20%;
+      width: 60%;
+      margin-top: 3rem;
+      position: absolute; 
+      .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+    }
+  }
+  @media (min-width: 1200px) {
+    .Bvice-text {
+      width: 45%;
+    }
+  }
+}
